@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+
+<head>
+    <title>Survey Sparrow</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/74d055d2cf.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+
+    <section class="hero-section">
+        <div class="container">
+            <div class="row">
+                <div class="container nav-container custom-nav">
+                    <nav class="navbar navbar-expand-lg navbar-light">
+                        <a class="navbar-brand" href="#">Maxeon</a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse"
+                            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav ml-auto">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Platform <span class="sr-only">(current)</span></a>
+                                </li>
+                                <li class="nav-item"><a class="nav-link" href="#">Products</a></li>
+                                <li class="nav-item"><a class="nav-link" href="#">Features</a></li>
+                                <li class="nav-item"><a class="nav-link" href="#">Use Cases</a></li>
+                                <li class="nav-item"><a class="nav-link" href="#">Pricing</a></li>
+                            </ul>
+                            <button type="button" class="btn nav-btn" data-toggle="modal" data-target="#form">
+                                SignUp
+                              </button>  
+                    </nav>
+                </div>
+                <div class="banner-text">
+                    <h1>Where <br> words <br> fail, <br> Music <br> speaks.</h1>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="service">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-md-12 searchBar">
+                    <div class="searchinputbox">
+                        <button id="searchQuerySubmit" type="submit" name="searchQuerySubmit">
+                            <svg style="width:24px;height:24px" viewBox="0 0 24 24">
+                                <path fill="#666666"
+                                    d="M9.5,3A6.5,6.5 0 0,1 16,9.5C16,11.11 15.41,12.59 14.44,13.73L14.71,14H15.5L20.5,19L19,20.5L14,15.5V14.71L13.73,14.44C12.59,15.41 11.11,16 9.5,16A6.5,6.5 0 0,1 3,9.5A6.5,6.5 0 0,1 9.5,3M9.5,5C7,5 5,7 5,9.5C5,12 7,14 9.5,14C12,14 14,12 14,9.5C14,7 12,5 9.5,5Z" />
+                            </svg>
+                        </button>
+                        <input id="searchQueryInput" type="text" name="searchQueryInput" placeholder="Search for Playlists, Album or Songs" value="" />
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="service sports-padding timeline">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h2>LIVE SPORTS. <br> MUSIC. <br> NEWS. <br> PODCASTS.</h2>
+                </div>
+                <div class="col-md-6">
+                    <ul id='timeline'>
+                        <li class='work'>
+                            <input class='radio' id='work5' name='works' type='radio' checked>
+                            <div class="relative">
+                                <label for='work5'>emuse brings you live <br> sports</label>
+                                <span class='circle'></span>
+                            </div>
+                            <div class='content'>
+                            </div>
+                        </li>
+                        <li class='work'>
+                            <input class='radio' id='work4' name='works' type='radio'>
+                            <div class="relative">
+                                <label for='work4'>emuse brings you <br> live music</label>
+                                <span class='circle'></span>
+                            </div>
+                            <div class='content'>
+                            </div>
+                        </li>
+                        <li class='work'>
+                            <input class='radio' id='work3' name='works' type='radio'>
+                            <div class="relative">
+                                <label for='work3'>emuse brings you live <br> news</label>
+                                <span class='circle'></span>
+                            </div>
+                            <div class='content'>
+                            </div>
+                        </li>
+                        <li class='work'>
+                            <input class='radio' id='work2' name='works' type='radio'>
+                            <div class="relative">
+                                <label for='work2'>emuse brings you live <br> podcast</label>
+                                <span class='circle'></span>
+                            </div>
+                            <div class='content'>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="service services-padding services-2">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h3>Ut enim ad minima </h3>
+                    <p>At vero eos et accusamus et iusto odio dignissimos <br> ducimus qui blanditiis</p>
+                </div>
+            </div>
+            <div class="row services-2-inner text-center">
+                <div class="col-md-4 arrow pb-2">
+                    <h4>dolores eos qui <br> ratione</h4>
+                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem</p>
+                </div>
+                <div class="col-md-4 arrow pb-2">
+                    <h4>dolores eos <br> qui ratione</h4>
+                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem</p>
+                </div>
+                <div class="col-md-4 pb-2">
+                    <h4>dolores eos <br> qui ratione</h4>
+                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="service pt-3 evolve-padding services-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 services-3">
+                    <img class="img img-fluid" src="img/evolve.png" alt="">
+                </div>
+                <div class="col-md-6 evolve">
+                    <h3 class="pb-3">EVOLVE. <br> EXPLORE.</h3>
+                    <p class="pb-3">All the pods you hold dear, find them here first. <br> From chart toppers to newly
+                        discovered gems.</p>
+                    <a class="service-3-btn btn mr-3" href="#"><i class="fa fa-play"></i> Listen Now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="emuse">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="emuse"></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="service services-padding services-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 pb-5 text-center">
+                    <h3>Ut enim ad minima </h3>
+                    <p>At vero eos et accusamus et iusto odio dignissimos <br> ducimus qui blanditiis</p>
+                </div>
+            </div>
+            <div class="col-md-12 ser-4-inner">
+                <div class="row">
+                    <div class="col-md-6 inner-padding">
+                        <h4 class="pb-3">Consequuntur magni </h4>
+                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
+                            laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
+                            architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia </p>
+                    </div>
+                    <div class="col-md-6">
+                        <img src="img/service.svg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-12 ser-4-inner">
+                <div class="row">
+                    <div class="col-md-6">
+                        <img src="img/service.svg" alt="">
+                    </div>
+                    <div class="col-md-6 inner-padding">
+                        <h4 class="pb-3">Consequuntur magni </h4>
+                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
+                            laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
+                            architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-12 ser-4-inner">
+                <div class="row">
+                    <div class="col-md-6 inner-padding">
+                        <h4 class="pb-3">Consequuntur magni </h4>
+                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
+                            laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
+                            architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia </p>
+                    </div>
+                    <div class="col-md-6">
+                        <img src="img/service.svg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="service footer-padding services-5 services-5-bg mb-5">
+        <div class="container">
+            <div class="row ">
+                <div class="col-md-6">
+                    <img class="img img-fluid" src="img/rocket.png" alt="">
+                </div>
+                <div class="col-md-6">
+                    <h4 class="pb-5">Accusantium doloremque laudantium</h4>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <ul class="list">
+                                <li>Neque porro <br> quisquam </li>
+                                <li>Neque porro <br> quisquam </li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6">
+                            <ul class="list">
+                                <li>Neque porro <br> quisquam </li>
+                                <li>Neque porro <br> quisquam </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row pt-4 pb-3">
+                <div class="col-md-8">
+                    <ul class="privacy">
+                        <li>Copyright © maxeon Inc. 2018-19 |</li>
+                        <li><a href="#">Privacy Policy | </a> </li>
+                        <li><a href="#">Terms of Service |</a></li>
+                        <li><a href="#">Sitemap</a> </li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h4>Maxeon</h4>
+                </div>
+            </div>
+        </div>
+        
+    </footer>
+
+    <!-- chat box -->
+    <button class="chatbox-open">
+        <i class="fa fa-comment fa-2x" aria-hidden="true"></i>
+      </button>
+    <button class="chatbox-close">
+        <i class="fa fa-close fa-2x" aria-hidden="true"></i>
+      </button>
+    <section class="chatbox-popup">
+      <header class="chatbox-popup__header">
+        <aside style="flex:8">
+          <h4>Hi There</h4> Hello Ask Us Anything, Share Your 
+          Feedback.
+        </aside>
+        <aside style="flex:1">
+          <button class="chatbox-maximize"><i class="fa fa-window-maximize" aria-hidden="true"></i></button>
+        </aside>
+      </header>
+      <footer class="chatbox-popup__footer">
+        <aside style="flex:1;color:#888;text-align:center;">
+          <i class="fa fa-camera" aria-hidden="true"></i>
+        </aside>
+        <aside style="flex:10">
+          <textarea type="text" placeholder="Type your message here..." autofocus></textarea>
+        </aside>
+        <aside style="flex:1;color:#888;text-align:center;">
+            <div class="container">
+            <div id="results"></div>
+            <button class="btn advicebtn" id="getData"><i class="fa fa-paper-plane" aria-hidden="true"></i></button>
+        </div>
+        </aside>
+      </footer>
+    </section>
+    <section class="chatbox-panel">
+      <header class="chatbox-panel__header">
+        <aside style="flex:6">
+            <h4>Hi There</h4> Hello Ask Us Anything, Share Your 
+            Feedback.
+        </aside>
+        <aside style="flex:3;text-align:right;">
+          <button class="chatbox-minimize"><i class="fa fa-window-restore" aria-hidden="true"></i></button>
+          <button class="chatbox-panel-close"><i class="fa fa-close" aria-hidden="true"></i></button>
+        </aside>
+      </header>
+      <main class="chatbox-panel__main" style="flex:1">
+      </main>
+      <footer class="chatbox-panel__footer">
+        <aside style="flex:1;color:#888;text-align:center;">
+          <i class="fa fa-camera" aria-hidden="true"></i>
+        </aside>
+        <aside style="flex:10">
+          <textarea type="text" placeholder="Type your message here..." autofocus></textarea>
+        </aside>
+        <aside style="flex:1;color:#888;text-align:center;">
+            <div class="container">
+                <div id="results"></div>
+                <button class="btn advicebtn" id="getData"><i class="fa fa-paper-plane" aria-hidden="true"></i></button>
+            </div>
+          
+        </aside>
+      </footer>
+    </section>
+<!--bootstrap modal popup-->
+<div class="modal fade" id="form" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header border-bottom-0">
+          <h5 class="modal-title" id="exampleModalLabel">Sign Up</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <form>
+          <div class="modal-body">
+            <div class="form-group">
+              <label for="email1">Full Name</label>
+              <input type="email" class="form-control" id="email1" aria-describedby="emailHelp" placeholder="First and Last Name.">
+              <!-- <small id="emailHelp" class="form-text text-muted">Your information is safe with us.</small> -->
+            </div>
+            <div class="form-group">
+              <label for="password1">Email Address:</label>
+              <input type="password" class="form-control" id="password1" placeholder="username@email.com">
+            </div>
+            <div class="form-group">
+              <label for="password1">Password:</label>
+              <input type="password" class="form-control" id="password2" placeholder="Password">
+            </div>
+            <div class="form-group">
+                <label for="password1">Confirm Password:</label>
+                <input type="password" class="form-control" id="password2" placeholder="Confirm Password">
+              </div>
+          </div>
+          <div class="modal-footer border-top-0 d-flex justify-content-center">
+            <button type="submit" class="btn btn-sparrow">Sign Up</button>
+          </div>
+          <p>By signing up, you agree to our Terms of Service & Privacy Policy</p>
+        </form>
+      </div>
+    </div>
+  </div>
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+    <script>
+        const chatbox = jQuery.noConflict();
+
+chatbox(() => {
+  chatbox(".chatbox-open").click(() =>
+    chatbox(".chatbox-popup, .chatbox-close").fadeIn()
+  );
+
+  chatbox(".chatbox-close").click(() =>
+    chatbox(".chatbox-popup, .chatbox-close").fadeOut()
+  );
+
+  chatbox(".chatbox-maximize").click(() => {
+    chatbox(".chatbox-popup, .chatbox-open, .chatbox-close").fadeOut();
+    chatbox(".chatbox-panel").fadeIn();
+    chatbox(".chatbox-panel").css({ display: "flex" });
+  });
+
+  chatbox(".chatbox-minimize").click(() => {
+    chatbox(".chatbox-panel").fadeOut();
+    chatbox(".chatbox-popup, .chatbox-open, .chatbox-close").fadeIn();
+  });
+
+  chatbox(".chatbox-panel-close").click(() => {
+    chatbox(".chatbox-panel").fadeOut();
+    chatbox(".chatbox-open").fadeIn();
+  });
+});
+
+    </script>
+</body>
+
+</html>
